@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(199, 99, 99);
+}
+
+h1{
+  background: fixed;
+  text-align: center;
+    font-size: 60px;
+    background: linear-gradient(40deg, #7d57c4,#db291c);
+    border-radius: 10px 90px;
+    box-shadow: 6px 6px 6px 0px rgb(2, 1, 1);
+    padding: 50px;
+    margin: 40px;
+}
+h3{
+  text-align: center;
+}
+.image{ 
+  text-align: center;
+  border-radius: 20px;
+}
+td,th{
+  padding: 15px;
+  border: 1px solid black;
+} 
+table{
+  margin: auto;
+  border-collapse: collapse;
+}
+.mon_image{
+  text-align: right;
+}
+.titre{
+  text-align: center; 
+}

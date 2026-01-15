@@ -1,0 +1,36 @@
+body{
+ font-size: 2em;
+ background-image: url(fond.jpg);
+ background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: 200px;
+}
+.button-container{
+    text-align: center; /* centre le contenu horizontalement */
+  margin-top: 50px;  
+}
+
+.button {
+  display: inline-block;      /* Pour que ça se comporte comme un bouton */
+  padding: 10px 20px;         /* Espacement intérieur */
+  background-color: #ff6f61;  /* Couleur de fond (rose/rouge) */
+  color: white;               /* Couleur du texte */
+  font-size: 20px;            /* Taille du texte */
+  border-radius: 8px;         /* Coins arrondis */
+  cursor: pointer;            /* Curseur pointeur */
+  text-decoration: none;      /* Supprime le soulignement si c’est un lien */
+  transition: all 0.3s ease; /* Pour une animation douce */
+}
+
+.button:hover {
+  background-color: #ff4c3b; /* Couleur au survol */
+  transform: translateY(-2px); /* Légère montée au survol */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Ombre subtile */
+}
+
+.button:active {
+  transform: translateY(0);   /* Revenir en place quand on clique */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
